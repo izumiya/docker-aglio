@@ -7,5 +7,3 @@ RUN npm install -g aglio@$VERSION
 VOLUME /docs
 
 WORKDIR /docs
-
-ENTRYPOINT ["aglio"]
